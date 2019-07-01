@@ -53,7 +53,7 @@ if __name__ == "__main__":
           long_description=read('README.md'),
           keywords=keywords,
           url=url,
-          download_url=''.join((url, '/archive/v', version, '.zip')),
+          download_url=''.join((url, '/archive/v', version, '.tar.gz')),
 
           author=author,
           author_email=author_email,
