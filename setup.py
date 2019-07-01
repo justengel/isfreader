@@ -50,7 +50,7 @@ if __name__ == "__main__":
     setup(name=name,
           version=version,
           description=description,
-          long_description=read('README.md'),
+          long_description=read('README.rst'),
           keywords=keywords,
           url=url,
           download_url=''.join((url, '/archive/v', version, '.tar.gz')),
