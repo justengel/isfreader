@@ -1,5 +1,5 @@
 name = 'isfreader'
-version = '1.0.0'
+version = '1.0.1'
 description = 'Read tek scope isf files as a numpy array.'
 url = 'http://hg/Libraries/isfreader'
 author = 'Justin Engel'
