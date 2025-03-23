@@ -108,7 +108,7 @@ def split_isf_header(data):
     # Get the index for splitting the header from the data
     curve = b':CURV'
     find = data.find(curve)
-    if data[find+len(curve)] == b'E':
+    if data[find+5: find+6] == b'E':
         length = len(b':CURVE #')
     elif find != -1:
         length = len(b':CURV #')
